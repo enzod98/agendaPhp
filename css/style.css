@@ -1,4 +1,4 @@
-/* Variables */
+/* Custom Properties */
 
 :root {
     --colorGranate: #C2185B;
@@ -17,4 +17,6 @@ html {
     box-sizing: inherit;
 }
 
-body {}
+body {
+    background-color: var(--colorGranate);
+}
