@@ -242,3 +242,32 @@ legend span {
     font-size: 1.2rem;
     padding: .5rem;
 }
+
+
+/*  Notificaciones  */
+
+.notificacion {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem 3rem;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+/*  Colores de la notificacion  */
+
+.correcto {
+    background-color: lightgreen;
+    color: green;
+}
+
+.error {
+    background-color: lightcoral;
+    color: rgb(163, 0, 33);
+}
